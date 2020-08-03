@@ -16,13 +16,12 @@
         background-color: #f2e0d4; 
       }
       
-      .row{
-        display: flex; 
+      .main-image{
+        float: right; 
       }
       
-      .column{
-        flex: 50%; 
-        padding: 2px; 
+      .main-text{
+        float: left; 
       }
         
       .about-page{
@@ -54,13 +53,13 @@
         width: 96%;
       }
       
-      .column2{
+      .column{
         float: left; 
         flex: 25%; 
         padding: 10px; 
       }
       
-      .row2:after{
+      .row:after{
         content: "";
         display: table; 
         clear: both; 
@@ -157,6 +156,16 @@
     </style>
   </head>
   <body> 
+    <div class="main-text">
+      <div class="title" style="font-weight: bold; font-size: 55px; margin-top: 35%;"> Tasnim Emu </div> 
+      <hr style="width: 100px; margin-left: 30%; color: #794641; opacity: 0.8;">
+      <div class="title" style="font-size: 20px; margin-top: 40%"> Computer Science student at Columbia University. </div>
+    </div> 
+    <div class="main-image">
+      <img src="web-icon.png" class="img2" style="width:80%;">
+    </div> 
+    
+    <!--
     <div class="row">
       <div class="column"> 
         <div class="title" style="font-weight: bold; font-size: 55px; margin-top: 35%;"> Tasnim Emu </div> 
@@ -171,7 +180,7 @@
     <div> 
       <img src="mobile-logo.png" class="img3">
     </div>
-   
+   -->
     
     <center>
     <div class="about-page">
@@ -203,29 +212,29 @@
           </p>
         </div>
  
-        <div class="row2">
-          <div class="column2"> 
+        <div class="row">
+          <div class="column"> 
             <img src="1_Souls.png" style="width:90%;">
           </div> 
-          <div class="column2"> 
+          <div class="column"> 
             <img src="2_Limerence.png" style="width:90%;">
           </div>
-          <div class="column2"> 
+          <div class="column"> 
             <img src="3_Luminous.png" style="width:90%;">
           </div>
-          <div class="column2"> 
+          <div class="column"> 
             <img src="4_OverAgain.png" style="width:90%;">
           </div>
-          <div class="column2"> 
+          <div class="column"> 
             <img src="5_Torn.png" style="width:90%;">
           </div> 
-          <div class="column2"> 
+          <div class="column"> 
             <img src="6_Drown.png" style="width:90%;">
           </div>
-          <div class="column2"> 
+          <div class="column"> 
             <img src="7_RunawayBride.png" style="width:90%;">
           </div>
-          <div class="column2"> 
+          <div class="column"> 
             <img src="8_Innocence.png" style="width:90%;">
           </div>
         </div>
